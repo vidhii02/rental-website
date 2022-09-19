@@ -19,3 +19,16 @@
     color: white;
     min-height: 60vh;  
 }
+.overlay{
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9) 0%,
+        rgba(0,0,0,0.5) 50%,
+        rgba(0,0,0,0.9) 85%
+    );
+    width: 100%;
+    min-height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
