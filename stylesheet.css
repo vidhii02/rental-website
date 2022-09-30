@@ -19,7 +19,13 @@
     color: white;
     min-height: 60vh;  
 }
-.overlay{
+.rent_car{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+/* .overlay{
     background: linear-gradient(
         0deg,
         rgba(0,0,0,0.9) 0%,
@@ -31,4 +37,22 @@
     position: absolute;
     top: 0;
     left: 0;
+} */
+.check_section{
+    display: flex;
+    justify-content: center;
+    gap : 45px;
+    padding-right: 38%;
+    padding-top: 1%;
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
 }
+
+.search_section{
+    padding-top: 2%;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 165px;
+}
+

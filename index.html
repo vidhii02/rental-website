@@ -1,39 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="stylesheet.css"/>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="background">
-    <div class="overlay"></div>
-    <nav class="navbar" >
+      <div class="overlay"></div>
+      <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" width="50" height="30"href="#">
-            <i class="fa-solid fa-motorcycle" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
+          <a class="navbar-brand text-light" width="50" height="30" href="#">
+            <i
+              class="fa-solid fa-motorcycle"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            ></i>
             RENTIFY.com
           </a>
           <div class="navbar_right">
-          <div class="Log_sign">
-           <a class="nav-link text-light" href="#" ><span>Sign up</span></a>
-            <a class="nav-link text-light" href="#"><span>Log in</span></a>
-        </div>
-        <form class="d-flex" role="search"> 
-            <button class="btn btn-outline-light font-weight-normal" type="submit"
-            style="--bs-btn-padding-y: .40rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem;">Manage booking</button>
-          </form>
+            <div class="Log_sign">
+              <a class="nav-link text-light" href="#"><span>Sign up</span></a>
+              <a class="nav-link text-light" href="#"><span>Log in</span></a>
+            </div>
+            <form class="d-flex" role="search">
+              <button
+                class="btn btn-outline-light font-weight-normal"
+                type="submit"
+                style="
+                  --bs-btn-padding-y: 0.4rem;
+                  --bs-btn-padding-x: 1rem;
+                  --bs-btn-font-size: 1rem;
+                "
+              >
+                Manage booking
+              </button>
+            </form>
           </div>
         </div>
       </nav>
+      <div>
+        <h1 class="rent_car">
+          RENTIFY - Don't go far for your car, just search and rent over here!
+        </h1>
+        <div class="check_section">
+          <span>Free Cancellations</span>
+          <span>Easy Compare</span>
+          <span>Rent Cars at low Cost</span>
+        </div>
       </div>
-</body>
+      <div class="search_section">
+        <input
+          class="search_section01"
+          type="text"
+          placeholder="Pick-up location"
+        />
+        <input
+          class="search_section02"
+          type="text"
+          placeholder="Pick-up Date"
+        />
+        <input class="search_section03" type="text" placeholder="Time" />
+        <input
+          class="search_section04"
+          type="text"
+          placeholder="Drop-up Date"
+        />
+        <input class="search_section05" type="text" placeholder="Time" />
+        <button type="button" class="btn btn-warning">Warning</button>
+      </div>
+    </div>
+  </body>
 </html>
