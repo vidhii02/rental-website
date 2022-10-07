@@ -49,10 +49,31 @@
     font-weight: 400;
 }
 
+.main_search_section{
+    width: 100%;
+   
+
+}
 .search_section{
+    height: 140px;
+    margin-right: 20%;
+    /* /padding:0px 20px ; */
+    width: 75.5%;
+    display:flex;
     padding-top: 2%;
-    width: 80%;
+    background:white;
     border-radius: 5px;
-    padding-left: 165px;
+    padding:10px;
+    margin:0 auto;
+    margin-top: 20px;
+  
+   
+}
+.search_section_part{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
 }
 
